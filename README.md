@@ -1,1 +1,1 @@
-# LOTR-reworked 2.0
+# LOTR-2.0
