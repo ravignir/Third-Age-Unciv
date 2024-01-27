@@ -14,7 +14,17 @@
 	{
 		"name": "Battle Tower Power",
 		"cost": 1,
-		"uniques": ["Unbuildable","Unsellable","Creates a [Battle Tower] improvement on a specific tile <before adopting [Improved Battle Towers]>","Creates a [Improved Battle Tower] improvement on a specific tile <after adopting [Improved Battle Towers]> <before adopting [War Towers]>", "Creates a [War Tower] improvement on a specific tile <after adopting [War Towers]>","Remove [Battle Tower Power] [in all cities] <upon turn end> <when below [1] [Battle Tower Cooldown]>","Instantly provides [30] [Battle Tower Cooldown]"]
+		"uniques": ["Unbuildable","Unsellable","Creates a [Battle Tower] improvement on a specific tile","Remove [Battle Tower Power] [in all cities] <upon turn end> <when below [1] [Battle Tower Cooldown]>","Instantly provides [30] [Battle Tower Cooldown]"]
+	},
+	{
+		"name": "Improved Battle Tower Power",
+		"cost": 1,
+		"uniques": ["Unbuildable","Unsellable","Creates a [Improved Battle Tower] improvement on a specific tile","Remove [Improved Battle Tower Power] [in all cities] <upon turn end> <when below [1] [Battle Tower Cooldown]>","Instantly provides [30] [Battle Tower Cooldown]"]
+	},
+	{
+		"name": "War Tower Power",
+		"cost": 1,
+		"uniques": ["Unbuildable","Unsellable","Creates a [War Tower] improvement on a specific tile","Remove [War Tower Power] [in all cities] <upon turn end> <when below [1] [Battle Tower Cooldown]>","Instantly provides [30] [Battle Tower Cooldown]"]
 	},
 	{
 		"name": "Summon Reinforcements Power",
@@ -54,7 +64,7 @@
 	{
 		"name": "Draft Power",
 		"cost": 1,
-		"uniques": ["Unbuildable","Unsellable", "Free [Peasant] appears <in all cities>", "Remove [Draft Power] [in all cities] <upon turn end> <when below [1] [Draft Cooldown]>","Instantly provides [30] [Draft Cooldown]"]
+		"uniques": ["Unbuildable","Unsellable", "Free [Peasant] appears <in this city>", "Gain a free [Draft Power] [in all cities]","Remove [Draft Power] [in all cities] <upon turn end> <when below [1] [Draft Cooldown]>","Instantly provides [30] [Draft Cooldown]"]
 	},
 	{
 		"name": "Horn of Helm Power",
@@ -375,7 +385,7 @@
 		"science": 1,
 		"gold": 2,
 		//"specialistSlots":  {"Sculptor": 1, "Researcher": 1, "Inventor": 1, "Seller": 1 },
-		"culture": 1,
+		"culture": 1000,
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["[-20]% Culture cost of adopting new Policies","[+25]% [Culture] [in all cities]","Indicates the capital city"]

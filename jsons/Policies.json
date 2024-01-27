@@ -137,21 +137,21 @@
 			},
 			{
 				"name": "Battle Towers",
-				"uniques": ["Comment [Summons a Battle Tower improvement dealing 10 damage to neraby enemy units, it also provides 25% defensive bonus to stationing unit]","Comment [Cooldown: 30 turns]","May buy [Battle Tower Power] buildings for [0] [Culture] [in all cities] <when below [1] [Battle Tower Cooldown]>","Instantly provides [1] [Tier 1 Power]"],
+				"uniques": ["Comment [Summons a Battle Tower improvement dealing 10 damage to neraby enemy units, it also provides 25% defensive bonus to stationing unit]","Comment [Cooldown: 30 turns]","May buy [Battle Tower Power] buildings for [0] [Culture] [in all cities] <when below [1] [Battle Tower Cooldown]> <before adopting [Improved Battle Towers]>","Instantly provides [1] [Tier 1 Power]"],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Improved Battle Towers",
 				"requires": ["Battle Towers"],
-				"uniques": ["Comment [Summons an Improved Battle Tower improvement dealing 20 damage to neraby enemy units, it also provides 50% defensive bonus to stationing unit]","Comment [Cooldown: 30 turns]","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"uniques": ["Comment [Summons an Improved Battle Tower improvement dealing 20 damage to neraby enemy units, it also provides 50% defensive bonus to stationing unit]","Comment [Cooldown: 30 turns]","May buy [Improved Battle Tower Power] buildings for [0] [Culture] [in all cities] <when below [1] [Battle Tower Cooldown]> <before adopting [War Towers]>","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
 				"row": 2,
 				"column": 5
 			},
 			{
 				"name": "War Towers",
 				"requires": ["Improved Battle Towers"],
-				"uniques": ["Comment [Summons a War Tower improvement dealing 30 damage to neraby enemy units, it also provides 75% defensive bonus to stationing unit]","Comment [Cooldown: 30 turns]","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"uniques": ["Comment [Summons a War Tower improvement dealing 30 damage to neraby enemy units, it also provides 75% defensive bonus to stationing unit]","Comment [Cooldown: 30 turns]","May buy [War Tower Power] buildings for [0] [Culture] [in all cities] <when below [1] [Battle Tower Cooldown]>","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
 				"row": 3,
 				"column": 5
 			},
@@ -275,7 +275,7 @@
 	{
 		"name": "Noldor Elves",
 		"era": "Second Age",
-		"uniques": ["Only available <for [Noldor Elves]>","Free Social Policy"],
+		"uniques": ["Only available <for [Noldor Elves]>",],
 		"policies": [
 			{
 				"name": "Far Sight",
@@ -316,7 +316,7 @@
 	{
 		"name": "Sindar Elves",
 		"era": "Second Age",
-		"uniques": ["Only available <for [Sindar Elves]>","Free Social Policy"],
+		"uniques": ["Only available <for [Sindar Elves]>",],
 		"policies": [
 			{
 				"name": "Elven Swiftness",
@@ -357,7 +357,7 @@
 	{
 		"name": "Gondor",
 		"era": "Second Age",
-		"uniques": ["Only available <for [Gondor]>","Free Social Policy"],
+		"uniques": ["Only available <for [Gondor]>",],
 		"policies": [
 			{
 				"name": "Beacons of Gondor",
@@ -398,7 +398,7 @@
 	{
 		"name": "Rohan",
 		"era": "Second Age",
-		"uniques": ["Only available <for [Rohan]>","Free Social Policy"],
+		"uniques": ["Only available <for [Rohan]>",],
 		"policies": [
 			{
 				"name": "Muster the Rohirrim",
@@ -439,7 +439,7 @@
 	{
 		"name": "Arnor",
 		"era": "Second Age",
-		"uniques": ["Only available <for [Arnor]>","Free Social Policy"],
+		"uniques": ["Only available <for [Arnor]>",],
 		"policies": [
 			{
 				"name": "Palantir Vision",
@@ -480,7 +480,7 @@
 	{
 		"name": "The Shire",
 		"era": "Second Age",
-		"uniques": ["Only available <for [The Shire]>","Free Social Policy"],
+		"uniques": ["Only available <for [The Shire]>",],
 		"policies": [
 			{
 				"name": "Harmony Trade",
@@ -521,7 +521,7 @@
 	{
 		"name": "Dwarves",
 		"era": "Second Age",
-		"uniques": ["Only available <for [Dwarves]>","Free Social Policy"],
+		"uniques": ["Only available <for [Dwarves]>",],
 		"policies": [
 			{
 				"name": "Dwarven Riches",
@@ -562,7 +562,7 @@
 	{
 		"name": "Angmar",
 		"era": "Second Age",
-		"uniques": ["Only available <for [Angmar]>","Free Social Policy"],
+		"uniques": ["Only available <for [Angmar]>",],
 		"policies": [
 			{
 				"name": "Iron Marauders",
@@ -604,7 +604,7 @@
 	{
 		"name": "Mordor",
 		"era": "Second Age",
-		"uniques": ["Only available <for [Mordor]>","Free Social Policy"],
+		"uniques": ["Only available <for [Mordor]>",],
 		"policies": [
 			{
 				"name": "Eye of Sauron",
@@ -648,7 +648,7 @@
 	{
 		"name": "Isengard",
 		"era": "Second Age",
-		"uniques": ["Only available <for [Isengard]>","Free Social Policy"],
+		"uniques": ["Only available <for [Isengard]>",],
 		"policies": [
 			{
 				"name": "Palantir of Orthanc",
@@ -689,7 +689,7 @@
 		{
 		"name": "Goblins",
 		"era": "Second Age",
-		"uniques": ["Only available <for [Goblins]>","Free Social Policy"],
+		"uniques": ["Only available <for [Goblins]>",],
 		"policies": [
 			{
 				"name": "Mighty Horde",
@@ -730,7 +730,7 @@
 	{
 		"name": "Harad",
 		"era": "Second Age",
-		"uniques": ["Only available <for [Harad]>","Free Social Policy"],
+		"uniques": ["Only available <for [Harad]>",],
 		"policies": [
 			{
 				"name": "Unity of the Tribes",
@@ -771,7 +771,7 @@
 	{
 		"name": "Rhun",
 		"era": "Second Age",
-		"uniques": ["Only available <for [Rhun]>","Free Social Policy"],
+		"uniques": ["Only available <for [Rhun]>",],
 		"policies": [
 			{
 				"name": "Scourge Riders",
