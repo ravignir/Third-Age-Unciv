@@ -4,116 +4,139 @@
 	{
 		"name": "Healing Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Remove [Healing Power] [in all cities] <upon turn end> <when below [1] [Healing Cooldown]>","Instantly provides [25] [Healing Cooldown]"]
 	},
 	{
 		"name": "Rallying Call Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Remove [Rallying Call Power] [in all cities] <upon turn end> <when below [1] [Rallying Call Cooldown]>","Instantly provides [25] [Rallying Call Cooldown]"]
 	},
 	{
 		"name": "Battle Tower Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable","Creates a [Battle Tower] improvement on a specific tile","Remove [Battle Tower Power] [in all cities] <upon turn end> <when below [1] [Battle Tower Cooldown]>","Instantly provides [30] [Battle Tower Cooldown]"]
 	},
 	{
 		"name": "Improved Battle Tower Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable","Creates a [Improved Battle Tower] improvement on a specific tile","Remove [Improved Battle Tower Power] [in all cities] <upon turn end> <when below [1] [Battle Tower Cooldown]>","Instantly provides [30] [Battle Tower Cooldown]"]
 	},
 	{
 		"name": "War Tower Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable","Creates a [War Tower] improvement on a specific tile","Remove [War Tower Power] [in all cities] <upon turn end> <when below [1] [Battle Tower Cooldown]>","Instantly provides [30] [Battle Tower Cooldown]"]
 	},
 	{
 		"name": "Summon Reinforcements Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Free [Warrior] appears <in this city> <during the [Second Age]>", "Free [Archer] appears <in this city> <during the [Second Age]> <after adopting [Advanced Summon Reinforcements]>", "Free [Horseman] appears <in this city> <during the [Second Age]> <after adopting [Excellent Summon Reinforcements]>", "Remove [Summon Reinforcements Power] [in all cities] <upon turn end> <when below [1] [Summon Reinforcements Cooldown]>","Instantly provides [30] [Summon Reinforcements Cooldown]"]
 	}
 	{
 		"name": "Far Sight Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Remove [Far Sight Power] [in all cities] <upon turn end> <when below [1] [Far Sight Cooldown]>","Instantly provides [25] [Far Sight Cooldown]"]
 	},
 	{
 		"name": "Elrond's Foresight Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Free [Elrond's Vision] appears <in this city>", "Remove [Elrond's Foresight Power] [in all cities] <upon turn end> <when below [1] [Elrond's Foresight Cooldown]>","Instantly provides [75] [Elrond's Foresight Cooldown]"]
 	},
 	{
 		"name": "Elven Swiftness Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Remove [Elven Swiftness Power] [in all cities] <upon turn end> <when below [1] [Elven Swiftness Cooldown]>","Instantly provides [25] [Elven Swiftness Cooldown]"]
 	},
 	{
 		"name": "Elven Cloaks Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Remove [Elven Cloaks Power] [in all cities] <upon turn end> <when below [1] [Elven Cloaks Cooldown]>","Instantly provides [25] [Elven Cloaks Cooldown]"]
 	},
 	{
 		"name": "Mirkwood Training Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Remove [Mirkwood Training Power] [in all cities] <upon turn end> <when below [1] [Mirkwood Training Cooldown]>","Instantly provides [35] [Mirkwood Training Cooldown]"]
 	},
 	{
 		"name": "Muster the Rohirrim Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Remove [Muster the Rohirrim Power] [in all cities] <upon turn end> <when below [1] [Muster the Rohirrim Cooldown]>","Instantly provides [25] [Muster the Rohirrim Cooldown]"]
 	},
 	{
 		"name": "Draft Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Free [Peasant] appears <in this city>", "Gain a free [Draft Power] [in all cities]","Remove [Draft Power] [in all cities] <upon turn end> <when below [1] [Draft Cooldown]>","Instantly provides [30] [Draft Cooldown]"]
 	},
 	{
 		"name": "Horn of Helm Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Remove [Horn of Helm Power] [in all cities] <upon turn end> <when below [1] [Horn of Helm Cooldown]>","Instantly provides [40] [Horn of Helm Cooldown]"]
 	},
 	{
 		"name": "Palantir Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Remove [Palantir Power] [in all cities] <upon turn end> <when below [1] [Palantir Cooldown]>","Instantly provides [25] [Palantir Cooldown]"]
 	},
 	{
 		"name": "Hobbit Agility Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Remove [Hobbit Agility Power] [in all cities] <upon turn end> <when below [1] [Hobbit Agility Cooldown]>","Instantly provides [30] [Hobbit Agility Cooldown]"]
 	},
 	{
 		"name": "Dwarven Riches Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Remove [Dwarven Riches Power] [in all cities] <upon turn end> <when below [1] [Dwarven Riches Cooldown]>","Instantly provides [40] [Dwarven Riches Cooldown]"]
 	},
 	{
 		"name": "Natural Sprinters Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Remove [Natural Sprinters Power] [in all cities] <upon turn end> <when below [1] [Natural Sprinters Cooldown]>","Instantly provides [35] [Natural Sprinters Cooldown]"]
 	},
 	{
 		"name": "Summon Crebains of Dunland Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Free [Crebains of Dunland] appears <in this city>","Remove [Summon Crebains of Dunland Power] [in all cities] <upon turn end> <when below [1] [Summon Crebains of Dunland Cooldown]>","Instantly provides [30] [Summon Crebains of Dunland Cooldown]"]
 		},
 	{
 		"name": "Summon Barrow Wight Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Free [Barrow Wight] appears <in this city>","Remove [Summon Barrow Wight Power] [in all cities] <upon turn end> <when below [1] [Summon Barrow Wight Cooldown]>","Instantly provides [30] [Summon Barrow Wight Cooldown]"]
 	},
 	{
 		"name": "Summon Eye of Sauron Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Free [Eye of Sauron] appears <in this city>","Remove [Summon Eye of Sauron Power] [in all cities] <upon turn end> <when below [1] [Summon Eye of Sauron Cooldown]>","Instantly provides [30] [Summon Eye of Sauron Cooldown]"]
 		},
 		{
 		"name": "Call of Horde Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Remove [Call of Horde Power] [in all cities] <upon turn end> <when below [1] [Call of Horde Cooldown]>","Instantly provides [45] [Call of Horde Cooldown]"]
 	},
 	{
 		"name": "Blessing of the Serpent Power",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable","Unsellable", "Remove [Blessing of the Serpent Power] [in all cities] <upon turn end> <when below [1] [Blessing of the Serpent Cooldown]>","Instantly provides [40] [Blessing of the Serpent Cooldown]"]
 	},
 // Special 
@@ -175,12 +198,14 @@
 		"uniqueTo": "Entwood",
 		"hurryCostModifier": 40,
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [8] [SpecialEnt]", "Unsellable","Good"],
 	},
 	{
 		"name": "Eagle Supply",
 		"uniqueTo": "Eagle's Eyrie",
 		"cost": 1,
+		"culture": 2,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [2] [SpecialEagle]", "Unsellable","Good"],
 	},
@@ -188,6 +213,7 @@
 		"name": "Beorning Supply",
 		"uniqueTo": "Beorn's Hall",
 		"cost": 1,
+		"culture": 2,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [3] [SpecialBeorning]", "Unsellable","Good"],
 	},
@@ -195,6 +221,7 @@
 		"name": "Spider Supply",
 		"uniqueTo": "Shelob's Lair",
 		"cost": 1,
+		"culture": 2,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [8] [SpecialSpider]", "Unsellable","Evil"],
 	},
@@ -202,6 +229,7 @@
 		"name": "Corsair Supply",
 		"uniqueTo": "Umbar",
 		"cost": 1,
+		"culture": 2,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [6] [SpecialCorsair]", "Unsellable","Evil"],
 	},
@@ -209,6 +237,7 @@
 		"name": "Dunlending Supply",
 		"uniqueTo": "Dunland",
 		"cost": 1,
+		"culture": 2,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [12] [SpecialDunlending]", "Unsellable","Evil"],
 	},
@@ -216,6 +245,7 @@
 		"name": "Dead Supply",
 		"uniqueTo": "Paths of the Dead",
 		"cost": 1,
+		"culture": 2,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [1] [SpecialDead]", "Unsellable"],
 	},
@@ -245,6 +275,7 @@
 		"uniqueTo": "Harad",
 		"hurryCostModifier": 40,
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","New [Haradrim Lancer] units start with [30] Experience [in this city]","Unsellable"],
 	},
 	
@@ -388,6 +419,7 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["[-20]% Culture cost of adopting new Policies","[+25]% [Culture] [in all cities]","Indicates the capital city"]
 	},
 	{
@@ -1045,26 +1077,31 @@
 /*			{
 		"name": "Elven Ring4",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable"]
 	},
 			{
 		"name": "Elven Ring5",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable"]
 	},
 			{
 		"name": "Elven Ring6",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable"]
 	},
 			{
 		"name": "Elven Ring7",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable"]
 	},
 			{
 		"name": "Elven Ring8",
 		"cost": 1,
+		"culture": 2,
 		"uniques": ["Unbuildable"]
 	},
 	*/

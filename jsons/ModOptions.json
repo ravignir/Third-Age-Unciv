@@ -1,1 +1,25 @@
-{"isBaseRuleset":true,"lastUpdated":"2024-01-13T22:37:26Z","modUrl":"https://github.com/RealBamboolord/LOTR-reworked","defaultBranch":"main","author":"RealBamboolord","modSize":2005,"topics":["unciv-mod","unciv-mod-fork","unciv-mod-maps","unciv-mod-rulesets"],"constants":{"unitUpgradeCost":{}}}
+{
+    "constants":
+    {
+        "maxXPfromBarbarians": 30,
+        "cityStrengthBase": 7,
+        "cityStrengthPerPop": 0.5,
+        "cityStrengthFromTechsMultiplier": 8.3,
+        "cityStrengthFromTechsExponent": 1.4,
+        "cityStrengthFromTechsFullMultiplier": 1.15,
+        "cityStrengthFromGarrison": 0.2,
+		"minimalCityDistance": 2,
+        "minimalCityDistanceOnDifferentContinents": 2,
+        "naturalWonderCountMultiplier": 0.186,
+        "naturalWonderCountAddedConstant": 0.2,
+        "ancientRuinCountMultiplier": 0.02,
+		"maxLakeSize": 7,
+        "riverCountMultiplier": 0.01,
+        "religionLimitBase": 1,
+        "religionLimitMultiplier": 1,
+        "pantheonBase": 150,
+        "pantheonGrowth": 0
+		
+    },
+    "isBaseRuleset": true
+}

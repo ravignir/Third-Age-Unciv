@@ -145,7 +145,7 @@
 {
 		"name": "Palantir Cooldown",
 		"resourceType": "Strategic",
-		"uniques": ["Stockpiled","Not shown on world screen <before adopting [Palantir]>"]
+		"uniques": ["Stockpiled","Not shown on world screen <without [Palantir Cooldown]>"]
 	},
 	{
 		"name": "Palantir Activate",
@@ -195,7 +195,7 @@
 	{
 		"name": "Blessing of the Serpent Cooldown",
 		"resourceType": "Strategic",
-		"uniques": ["Stockpiled","Not shown on world screen <before adopting [Blessing of teh Serpent]>"]
+		"uniques": ["Stockpiled","Not shown on world screen <before adopting [Blessing of the Serpent]>"]
 	},
 	{
 		"name": "Blessing of the Serpent Activate",
