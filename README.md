@@ -1,2 +1,1 @@
-# LOTR-reworked
-Updated version of Ravignir's LOTR mod
+# LOTR-reworked 2.0
