@@ -145,7 +145,7 @@
 {
 		"name": "Palantir Cooldown",
 		"resourceType": "Strategic",
-		"uniques": ["Stockpiled","Not shown on world screen <without [Palantir Cooldown]>"]
+		"uniques": ["Stockpiled","Not shown on world screen <before adopting [Palantir Vision]>"]
 	},
 	{
 		"name": "Palantir Activate",
@@ -346,7 +346,7 @@
 	{
 		"name": "Niter",
 		"resourceType": "Strategic",
-		"revealedBy": "Chemistry",
+		"revealedBy": "Alchemy",
 		"terrainsCanBeFoundOn": ["Grassland","Mordor Plains","Plains","Desert","Tundra","Snow","Hill"],
 		"production": 1,
 		"improvement": "Quarry",

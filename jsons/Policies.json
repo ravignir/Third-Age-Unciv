@@ -651,8 +651,8 @@
 		"uniques": ["Only available <for [Isengard]>",],
 		"policies": [
 			{
-				"name": "Palantir of Orthanc",
-				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Palantir","Comment [All units gain +2 Sight for 3 turns]","Comment [Cooldown: 20 turns]","All newly-trained [All] units [in all cities] receive the [Palantir] promotion","[All] units gain the [Palantir] promotion <upon constructing [Palantir Power]>", "May buy [Palantir Power] buildings for [0] [Culture] [in all cities] <when below [1] [Palantir Cooldown]>"],
+				"name": "Meat is back on the menu",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Heals [15] damage if it kills a unit"],
 				"row": 1,
 				"column": 1
 			},

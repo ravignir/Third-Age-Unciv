@@ -35,7 +35,7 @@
 		"name": "Summon Reinforcements Power",
 		"cost": 1,
 		"culture": 2,
-		"uniques": ["Unbuildable","Unsellable", "Free [Warrior] appears <in this city> <during the [Second Age]>", "Free [Archer] appears <in this city> <during the [Second Age]> <after adopting [Advanced Summon Reinforcements]>", "Free [Horseman] appears <in this city> <during the [Second Age]> <after adopting [Excellent Summon Reinforcements]>", "Remove [Summon Reinforcements Power] [in all cities] <upon turn end> <when below [1] [Summon Reinforcements Cooldown]>","Instantly provides [30] [Summon Reinforcements Cooldown]"]
+		"uniques": ["Unbuildable","Unsellable", "Free [Warrior] appears <in this city> <during the [Second Age]>", "Free [Archer] appears <in this city> <during the [Second Age]> <after adopting [Advanced Summon Reinforcements]>", "Free [Rider] appears <in this city> <during the [Second Age]> <after adopting [Excellent Summon Reinforcements]>", "Remove [Summon Reinforcements Power] [in all cities] <upon turn end> <when below [1] [Summon Reinforcements Cooldown]>","Instantly provides [30] [Summon Reinforcements Cooldown]"]
 	}
 	{
 		"name": "Far Sight Power",
@@ -413,7 +413,7 @@
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 2,
-		"science": 1,
+		"science": 3,
 		"gold": 2,
 		//"specialistSlots":  {"Sculptor": 1, "Researcher": 1, "Inventor": 1, "Seller": 1 },
 		"culture": 1,
@@ -616,7 +616,7 @@
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production] from [Sheep] tiles [in this city]"],
-		"requiredTech": "Horseback Riding"
+		"requiredTech": "Stirrup"
 	},
 	{
 		"name": "Mearas Stable", 
@@ -631,7 +631,7 @@
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production] from [Sheep] tiles [in this city]"],
-		"requiredTech": "Horseback Riding"
+		"requiredTech": "Stirrup"
 	},
 	{
 		"name": "Giant Circus",
@@ -640,7 +640,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city"],
-		"requiredTech": "Horseback Riding"
+		"requiredTech": "Stirrup"
 	},
 	{
 		"name": "Menegroth",
@@ -1017,7 +1017,7 @@
 		"hurryCostModifier": 10,
 		"maintenance": 2,
 		"requiredBuilding": "Colosseum",
-		"requiredTech": "Printing Press"
+		"requiredTech": "Printing"
 	},
 	{
 		"name": "The Tower Hills",
@@ -1025,7 +1025,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},	
 		"uniques": ["Free Great Person"],
-		"requiredTech": "Printing Press",
+		"requiredTech": "Printing",
 	},
 	{
 		"name": "Seaport",
