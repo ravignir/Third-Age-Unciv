@@ -7,7 +7,7 @@
 		"techs": [
 			{
 				"name": "Agriculture",
-				"row": 5,
+				"row": 6,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 				"uniques": ["Starting tech"]
 			}
@@ -16,8 +16,8 @@
 	{
 		"columnNumber": 1,
 		"era": "Second Age",
-		"techCost": 50, 
-		"buildingCost": 60,
+		"techCost": 45, 
+		"buildingCost": 75,
 		"techs": [
 		{
 				"name": "Fishing",
@@ -68,7 +68,7 @@
 			{
 				"name": "Sailing",
 				"row": 1,
-				"prerequisites": ["Fishing"],
+				"prerequisites": ["Fishing","Carpentry"],
 				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
@@ -102,7 +102,7 @@
 	{
 		"columnNumber": 3,
 		"era": "Second Age",
-		"techCost": 135, 
+		"techCost": 125, 
 		"buildingCost": 110,
 		"wonderCost": 250,
 		"techs": [
@@ -172,14 +172,14 @@
 			{
 				"name": "Codex",
 				"row": 5,
-				"prerequisites": ["Writing"],
+				"prerequisites": ["Writing","Calendar"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			
 			{
 				"name": "Mathematics",
 				"row": 9,
-				"prerequisites": ["The Wheel"],
+				"prerequisites": ["The Wheel","Writing"],
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 			{
@@ -194,8 +194,8 @@
 		"columnNumber": 5,
 		"era": "Third Age",
 		"techCost": 310,
-		"buildingCost": 160,
-		"wonderCost": 400,
+		"buildingCost": 150,
+		"wonderCost": 350,
 		"techs": [
 		{
 				"name": "Optics",
@@ -253,15 +253,15 @@
 	{
 		"columnNumber": 6,
 		"era": "Third Age",
-		"techCost": 590, 
-		"buildingCost": 200,
-		"wonderCost": 500,
+		"techCost": 530, 
+		"buildingCost": 180,
+		"wonderCost": 450,
 		"techs": [
 		
 			{
 				"name": "Sorcery",
 				"row": 2,
-				"prerequisites": ["Enchanting"],
+				"prerequisites": ["Enchanting","Philosophy"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
 			{
@@ -300,9 +300,9 @@
 	{
 		"columnNumber": 7,
 		"era": "Third Age",
-		"techCost": 850, 
-		"buildingCost": 250,
-		"wonderCost": 650,
+		"techCost": 830, 
+		"buildingCost": 220,
+		"wonderCost": 550,
 		"techs": [
 		{
 				"name": "Compass",
@@ -342,9 +342,9 @@
 	{
 		"columnNumber": 8,
 		"era": "Third Age",
-		"techCost": 1300, 
-		"buildingCost": 300,
-		"wonderCost": 775,
+		"techCost": 1200, 
+		"buildingCost": 280,
+		"wonderCost": 650,
 		"techs": [
 		{
 				"name": "Education",
@@ -361,13 +361,13 @@
 			},
 			{
 				"name": "Physics",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Guilds","Siege Tactics"],
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
 			{
 				"name": "Military Engineering",
-				"row": 10,
+				"row": 11,
 				"prerequisites": ["Engineering","Siege Tactics"],
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
@@ -384,7 +384,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Third Age",
-		"techCost": 1300, 
+		"techCost": 1450, 
 		"buildingCost": 300,
 		"wonderCost": 775,
 		"techs": [
@@ -402,16 +402,16 @@
 				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
 			},
 			{
-				"name": "Chivalry",
-				"row": 7,
-				"prerequisites": ["Civil Service","Guilds"],
-				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
-			},
-			{
 				"name": "Banking",
 				"row": 8,
-				"prerequisites": ["Physics","Civil Service"],
+				"prerequisites": ["Civil Service","Guilds","Printing"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
+			},
+			{
+				"name": "Chivalry",
+				"row": 7,
+				"prerequisites": ["Civil Service","Guilds","Military Engineering"],
+				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
 			},
 			{
 				"name": "Machinery",
@@ -434,9 +434,9 @@
 		{
 		"columnNumber": 10,
 		"era": "Fourth Age",
-		"techCost": 4500, 
-		"buildingCost": 300,
-		"wonderCost": 750,
+		"techCost": 1800, 
+		"buildingCost": 350,
+		"wonderCost": 850,
 		"techs": [	
 			{
 				"name": "Navigation",
@@ -453,7 +453,7 @@
 			{
 				"name": "Economics",
 				"row": 6,
-				"prerequisites": ["Banking","Chivalry","Printing"],
+				"prerequisites": ["Banking","Education"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
 			},
 						{
@@ -474,7 +474,7 @@
 			{
 		"columnNumber": 11,
 		"era": "Fourth Age",
-		"techCost": 4500, 
+		"techCost": 3500, 
 		"buildingCost": 300,
 		"wonderCost": 750,
 		"techs": [	
