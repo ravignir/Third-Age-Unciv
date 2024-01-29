@@ -578,6 +578,10 @@
 		"uniques": ["[+10]% Strength"]
 	},
 	{
+		"name": "Noro Lim",
+		"uniques": ["[+1] Movement"],
+	},
+	{
 		"name": "Tunnel", 
 		"uniques": ["May Paradrop up to [8] tiles from inside friendly territory"],
 	},
