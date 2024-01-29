@@ -598,7 +598,7 @@
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 20,
-		"requiredTech": "Sailing",
+		"requiredTech": "Fishing",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources"]
 	},
 	{
@@ -797,7 +797,7 @@
 		"strength": 15,
 		"cost": 75,
 		"uniques": ["Cannot enter ocean tiles"]
-		"requiredTech": "Shipbuilding",
+		"requiredTech": "Optics",
 		"upgradesTo": "Caravel",
 		"attackSound": "metalhit"
 	},

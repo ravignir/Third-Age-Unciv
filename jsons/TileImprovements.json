@@ -9,7 +9,7 @@
 		"uniques": [
 			"Cannot be built on [Oasis] tiles",
 			"Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [fresh water] tiles <after discovering [Irrigation]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Civil Service]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		],
@@ -19,14 +19,14 @@
 		"name": "Pipe Weed Farm",
 		"uniqueTo": "The Shire",
 		"terrainsCanBeBuiltOn": ["Grassland"],
-		"culture": 1,
 		"food": 1,
+		"gold": 1,
 		"turnsToBuild": 10,
 		"techRequired": "Calendar",
 		"uniques": [
-			"[+1 Food] from [Fresh water] tiles <after discovering [Mathematics]>",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Irrigation]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Gold] <after discovering [Guilds]>",
+			"[+1 Science] <after discovering [Guilds]>",
 			"[+1 Culture] <after discovering [Economics]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		],
@@ -42,8 +42,8 @@
 		"techRequired": "Agriculture",
 		"uniques": [
 			"Cannot be built on [Oasis] tiles",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Construction]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Physics]>",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Production] from [non-fresh water] tiles <after discovering [Physics]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		],
 	},
@@ -52,7 +52,7 @@
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Mining",
+		"techRequired": "Carpentry",
 		"uniques": [
 			"[+1 Production] <after discovering [Metal Casting]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -66,9 +66,9 @@
 		"food": 1,
 		"gold": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Construction",
+		"techRequired": "Enchanting",
 		"uniques": [
-			"[+1 Production] <after discovering [Chivalry]>",
+			"[+1 Production] <after discovering [Sorcery]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 
@@ -93,7 +93,7 @@
 		"production": 1,
 		"culture": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Pottery",
+		"techRequired": "Trading",
 		"uniques": [
 			"[+1 Production] <after discovering [Civil Service]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
@@ -104,7 +104,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Mordor Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"gold": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Trapping",
+		"techRequired": "Trading",
 		"uniques": [
 			"Cannot be built on [Oasis] tiles","[+1 Gold] <after discovering [Guilds]>","Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "T"
@@ -130,21 +130,21 @@
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Calendar",
-		"uniques": ["[+1 Food] <after discovering [Education]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Food] <after discovering [Medicine]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
-		"techRequired": "Masonry",
-		"uniques": ["[+1 Production] <after discovering [Metallurgy]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"techRequired": "Stone Working",
+		"uniques": ["[+1 Production] <after discovering [Physics]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "Q"
 	},
 	{
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
-		"techRequired": "Sailing",
+		"techRequired": "Fishing",
 		"uniques": ["[+1 Gold] <after discovering [Compass]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"]
 	},
 

@@ -431,6 +431,15 @@
 		"maintenance": 1
 	},
 	{
+		"name": "Altar",
+		"culture": 1,
+		"specialistSlots":  {"Sculptor": 1},
+		"cost": 45,
+		"hurryCostModifier": 40,
+		"requiredTech": "Mysticism"
+		"maintenance": 1
+	},
+	{
 		"name": "Barrow",
 		"replaces": "Monument",
 		"uniqueTo": "Arnor",
@@ -466,6 +475,14 @@
 		"requiredTech": "Pottery"
 	},
 	{
+		"name": "Barricade",
+		"cityStrength": 3,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured","Defensive"],
+		"requiredTech": "Carpentry"
+	},
+	{
 		"name": "Temple of Melian",
 		"culture": 1,
 		"isWonder": true,
@@ -494,7 +511,7 @@
 		"uniques": [
 			"[+1 Production] from [Stone] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]"],
-		"requiredTech": "Calendar"
+		"requiredTech": "Stone Working"
 	},
 	{
 		"name": "Nargothrond",
@@ -656,7 +673,7 @@
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]"],
-		"requiredTech": "Mathematics"
+		"requiredTech": "Codex"
 	},
 	{
 		"name": "Colosseum", 
@@ -700,7 +717,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
-		"requiredTech": "Philosophy"
+		"requiredTech": "Poetry"
 	},
 	{
 		"name": "National College",
@@ -729,7 +746,7 @@
 		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", 
 			"[+2 Gold] from [Silver] tiles [in this city]", 
 			"[+2 Gold] from [Copper] tiles [in this city]"],
-		"requiredTech": "Currency"
+		"requiredTech": "Apprenticeship"
 	},
 	{
 		"name": "National Treasury",
@@ -831,7 +848,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
-		"requiredTech": "Metal Casting"
+		"requiredTech": "Apprenticeship"
 	},
 	{
 		"name": "Forge",

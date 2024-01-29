@@ -76,12 +76,14 @@
 				"name": "Astrology",
 				"row": 2,
 				"prerequisites": ["Mysticism"],
+				"uniques": ["[+1 Culture, +1 Science] [in all cities]"],
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			},
 			{
 				"name": "Trading",
 				"row": 8,
 				"prerequisites": ["Animal Husbandry","Carpentry"],
+				"uniques": ["[+1 Gold][in all cities]"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
 			},
 			{
@@ -146,7 +148,7 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "Third Age",
+		"era": "Beginning of Third Age",
 		"techCost": 190, 
 		"buildingCost": 125,
 		"wonderCost": 300,
@@ -161,6 +163,7 @@
 				"name": "Enchanting",
 				"row": 3,
 				"prerequisites": ["Calendar"],
+				"uniques": ["[+10]% Strength <vs [Evil] units> <for [Good]>","[+10]% Strength <vs [Good] units> <for [Evil]>"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			{
@@ -192,7 +195,7 @@
 	},
 	{
 		"columnNumber": 5,
-		"era": "Third Age",
+		"era": "Beginning of Third Age",
 		"techCost": 310,
 		"buildingCost": 150,
 		"wonderCost": 350,
@@ -239,6 +242,7 @@
 				"name": "Tactics",
 				"row": 12,
 				"prerequisites": ["Construction","Bronze Working"],
+				"uniques": ["[+50]% XP gained from combat <for [Military] units>","[+100]% to Flank Attack bonuses"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
@@ -252,7 +256,7 @@
 	},
 	{
 		"columnNumber": 6,
-		"era": "Third Age",
+		"era": "Fall of Numenorean Kingdoms",
 		"techCost": 530, 
 		"buildingCost": 180,
 		"wonderCost": 450,
@@ -262,12 +266,14 @@
 				"name": "Sorcery",
 				"row": 2,
 				"prerequisites": ["Enchanting","Philosophy"],
+				"uniques": ["[+1 Gold, +1 Production, +3 Science] [in all cities","Free Social Policy"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
 			{
 				"name": "Medicine",
 				"row": 6,
 				"prerequisites": ["Irrigation"],
+				"uniques": ["[+2 Food] [in all cities]","[5] HP when healing"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
 			{
@@ -299,7 +305,7 @@
 	},
 	{
 		"columnNumber": 7,
-		"era": "Third Age",
+		"era": "Fall of Numenorean Kingdoms",
 		"techCost": 830, 
 		"buildingCost": 220,
 		"wonderCost": 550,
@@ -341,7 +347,7 @@
 	},
 	{
 		"columnNumber": 8,
-		"era": "Third Age",
+		"era": "War of the Ring",
 		"techCost": 1200, 
 		"buildingCost": 280,
 		"wonderCost": 650,
@@ -369,6 +375,7 @@
 				"name": "Military Engineering",
 				"row": 11,
 				"prerequisites": ["Engineering","Siege Tactics"],
+				"uniques": ["[+100]% Production when constructing [Barracks] buildings [in all cities]","[+25]% Production when constructing [Military] units [in all cities]"],
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
 			{
@@ -383,7 +390,7 @@
 	},
 	{
 		"columnNumber": 9,
-		"era": "Third Age",
+		"era": "War of the Ring",
 		"techCost": 1450, 
 		"buildingCost": 300,
 		"wonderCost": 775,
