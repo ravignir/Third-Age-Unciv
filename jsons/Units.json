@@ -631,7 +631,7 @@
 		"name": "Axeman",
 		"unitType": "Melee",
 		"movement": 2,
-		"strength": 13,
+		"strength": 14,
 		"cost": 60,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
@@ -717,8 +717,7 @@
 		"cost": 75,
 		"requiredTech": "Codex",
 		"upgradesTo": "Pikeman",
-		"requiredResource": "Copper",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "No movement cost to pillage"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units> <when attacking>", "No movement cost to pillage"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -729,10 +728,9 @@
 		"movement": 2,
 		"strength": 16,
 		"cost": 75,
-		"requiredTech": "Bronze Working",
+		"requiredTech": "Codex",
 		"upgradesTo": "Pikeman",
-		"requiredResource": "Copper",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units> <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
