@@ -653,7 +653,7 @@
 	{
 		"name": "Spider Rider"
 		"replaces": "Chariot",
-		"unitType": "Mounted",
+		"unitType": "Archery",
 		"uniqueTo": "Goblins",
 		"movement": 3,
                 "range": 1,
@@ -662,7 +662,7 @@
 		"cost": 70,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Rider",
-		"uniques": ["Can move after attacking","Archery","[+50]% Strength <vs [Pike] units> <when attacking>"],
+		"uniques": ["Can move after attacking","Mounted","[+50]% Strength <vs [Pike] units> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
@@ -997,7 +997,7 @@
 	{
 		"name": "Rohirrim Archer"
 		"replaces": "Lancer",
-		"unitType": "Mounted",
+		"unitType": "Archery",
 		"uniqueTo": "Rohan",
 		"movement": 4,
 		"strength": 21,
@@ -1005,7 +1005,7 @@
 		"cost": 150,
 		"requiredTech": "Steel",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","Archery","[+50]% Strength <vs [Pike] units> <when attacking>"],
+		"uniques": ["Can move after attacking","Mounted","[+50]% Strength <vs [Pike] units> <when attacking>"],
 		"hurryCostModifier": 20,
 		"upgradesTo": "Cavalry",
 		"attackSound": "horse"
