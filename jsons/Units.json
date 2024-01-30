@@ -546,7 +546,7 @@
 		"cost": 40,
 		"requiredTech": "Carpentry",
 		"upgradesTo": "Spearman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects","[+50]% Strength <vs [Mounted] units> <when attacking>"],
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
                 "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -662,7 +662,7 @@
 		"cost": 70,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Rider",
-		"uniques": ["Can move after attacking","Archery"],
+		"uniques": ["Can move after attacking","Archery","[+50]% Strength <vs [Pike] units> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
@@ -689,7 +689,6 @@
 		"requiredTech": "Codex",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units> <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -703,7 +702,6 @@
 		"requiredTech": "Codex",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units> <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -716,7 +714,7 @@
 		"cost": 75,
 		"requiredTech": "Codex",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units> <when attacking>", "No movement cost to pillage"],
+		"uniques": ["No movement cost to pillage"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -729,7 +727,6 @@
 		"cost": 75,
 		"requiredTech": "Codex",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units> <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -756,7 +753,7 @@
 		"requiredTech": "Stirrup",
 		"requiredResource": "Horses",
 		"upgradesTo": "Lancer",
-		"uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","[+50]% Strength <vs [Pike] units> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -918,7 +915,6 @@
 		"strength": 19,
 		"cost": 120,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units> <when attacking>"],
 		"upgradesTo": "Longswordsman",
 		"attackSound": "metalhit"
 	},
@@ -931,7 +927,7 @@
 		"strength": 13,
 		"cost": 75,
 		"requiredTech": "Codex",
-		"uniques": ["[+50]% Strength <vs [Mounted] units> <when attacking>","[+50]% Strength <vs [Barbarian] units>","[+15]% Strength decreasing with distance from the capital","[+10]% Strength <when fighting in [Friendly Land] tiles>"],
+		"uniques": ["[+50]% Strength <vs [Barbarian] units>","[+15]% Strength decreasing with distance from the capital","[+10]% Strength <when fighting in [Friendly Land] tiles>"],
 		"upgradesTo": "Longswordsman",
 		"attackSound": "metalhit"
 	},
@@ -944,7 +940,7 @@
 		"strength": 21,
 		"cost": 120,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units> <when attacking>", "[+25]% Strength <when fighting in [Friendly Land] tiles>"],
+		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"],
 		"upgradesTo": "Longswordsman",
 		"attackSound": "metalhit"
 	},
@@ -1009,7 +1005,7 @@
 		"cost": 150,
 		"requiredTech": "Steel",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","Archery"],
+		"uniques": ["Can move after attacking","Archery","[+50]% Strength <vs [Pike] units> <when attacking>"],
 		"hurryCostModifier": 20,
 		"upgradesTo": "Cavalry",
 		"attackSound": "horse"
