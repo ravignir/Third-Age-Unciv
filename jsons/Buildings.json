@@ -770,7 +770,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [""], //Supposed to add additional unique promotion to Siege units (Indirect Fire)
-		"requiredBuilding": "Siege Tactis",
+		"requiredBuilding": "Siege Works",
 		"requiredTech": "Physics"
 	},
 	{
