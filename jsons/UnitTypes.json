@@ -3,15 +3,34 @@
         "name": "Civilian",
         "movementType": "Land"
     },
-    {
+	{
         "name": "Scout",
+        "movementType": "Land",
+		"uniques": ["Infantry"]
+    },
+    {
+        "name": "Special Scout",
         "movementType": "Land"
     },
     {
         "name": "Mounted",
-        "movementType": "Land"
+        "movementType": "Land",
+		"uniques": ["[-65]% Strength <vs [Pike] units> <when attacking>","[+15]% Strength <vs [Infantry] units> <when attacking>"]
     },
- 
+	{
+        "name": "Sword",
+        "movementType": "Land",
+		"uniques": ["Infantry"]
+    },
+	{
+        "name": "Special",
+        "movementType": "Land",
+    },
+	{
+        "name": "Pike",
+        "movementType": "Land",
+		"uniques": ["Infantry","[+50]% Strength <vs [Mounted] units> <when attacking>"]
+    },
     {
         "name": "Siege",
         "movementType": "Land"
@@ -22,7 +41,7 @@
     },
     {
         "name": "Melee Water",
-        "movementType": "Water"
+        "movementType": "Water",
         "uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"]
     },
     {
@@ -30,35 +49,33 @@
         "movementType": "Water"
     },
     {
-        "name": "Fighter",
+        "name": "Spotter",
         "movementType": "Air",
         "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]
     },
     {
-        "name": "Bomber",
+        "name": "Bombardment",
         "movementType": "Air",
         "uniques": ["Aircraft"]
     },
     {
-        "name": "Missile",
+        "name": "Spell",
         "movementType": "Air",
         "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
     },
     {
-        "name": "Melee",
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged",
-        "movementType": "Land"
+        "name": "Archery",
+        "movementType": "Land",
+		"uniques": ["Infantry","[+15]% Strength <vs [Pike] units> <when attacking>"]
     },
     {
         "name": "Explosive",
-        "movementType": "Land"
+        "movementType": "Land",
+		"uniques": ["Siege"]
     },
     {
         "name": "Flying",
-        "movementType": "Land"
+        "movementType": "Land",
         "uniques": [
             "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast",
             //"Defense bonus when embarked","May attack when embarked",

@@ -2,7 +2,7 @@
 // POWERS
 {
 		"name": "Elrond's Vision",
-		"unitType": "Missile",
+		"unitType": "Spell",
 		"movement": 0,
 		"strength": 0,
 		"rangedStrength": 0,
@@ -12,7 +12,7 @@
 	},
 	{
 		"name": "Eye of Sauron",
-		"unitType": "Melee",
+		"unitType": "Special Scout",
 		"movement": 5,
 		"strength": 1,
 		"range": 0,
@@ -21,7 +21,7 @@
 	},
 	{
 		"name": "Crebains of Dunland",
-		"unitType": "Melee",
+		"unitType": "Special Scout",
 		"movement": 3,
 		"strength": 10,
 		"range": 0,
@@ -31,7 +31,7 @@
 	
 	{
 		"name": "Peasant",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 3,
 		"cost": 40,
@@ -41,7 +41,7 @@
 	},
 	{
 		"name": "Barrow Wight",
-		"unitType": "Melee",
+		"unitType": "Flying",
 		"movement": 2,
 		"strength": 10,
 		"cost": 5,
@@ -51,7 +51,7 @@
 	// Unbuildable uniques
 	{
 		"name": "Lightning Bolt",
-		"unitType": "Missile",
+		"unitType": "Spell",
 		"uniqueTo": "Isengard",
 		"movement": 1,
 		"strength": 1,
@@ -63,7 +63,7 @@
 	},
 	{
 		"name": "Watchtower Guard",
-		"unitType": "Fighter",
+		"unitType": "Spotter",
 		"movement": 0,
 		"strength": 1,
 		"rangedStrength": 1,
@@ -81,7 +81,7 @@
 		"name": "Barricade Archer",
 		"uniqueTo": "Mordor",
 		"replaces": "Bombardment Archer",
-		"unitType": "Bomber",
+		"unitType": "Bombardment",
 		"range": 1,
 		"movement": 1,
 		"strength": 5,
@@ -92,7 +92,7 @@
 	},
 	{
 		"name": "Bombardment Archer",
-		"unitType": "Bomber",
+		"unitType": "Bombardment",
 		"range": 1,
 		"movement": 1,
 		"strength": 5,
@@ -105,7 +105,7 @@
 		"name": "Mumakil Tower Archer",
 		"replaces": "Bombardment Archer",
 		"uniqueTo": "Harad",
-		"unitType": "Bomber",
+		"unitType": "Bombardment",
 		"range": 1,
 		"movement": 1,
 		"strength": 5,
@@ -118,7 +118,7 @@
 	// Heroes units
 	{
 		"name": "Gandalf, the Grey",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 16,
 		"promotions": ["Hero"],
@@ -128,7 +128,7 @@
 	},
 	{
 		"name": "Gandalf, the White",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 3,
 		"strength": 18,
 		"rangedStrength": 14,
@@ -157,7 +157,7 @@
 	},
 	{
 		"name": "Faramir",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 18,
 		"rangedStrength": 15,
@@ -167,7 +167,7 @@
 	},
 	{
 		"name": "Elrond",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 17,
 		"promotions": ["Hero"],
@@ -175,7 +175,7 @@
 	},
 	{
 		"name": "Aragorn",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 18,
 		"promotions": ["Hero","Medic"],
@@ -183,7 +183,7 @@
 	},
 	{
 		"name": "Gimli",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 18,
 		"promotions": ["Hero"],
@@ -191,7 +191,7 @@
 	},
 	{
 		"name": "Galadriel",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 15,
 		"promotions": ["Hero","Ósanwe"],
@@ -199,7 +199,7 @@
 	},
 	{
 		"name": "Legolas",
-		"unitType": "Ranged",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 18,
@@ -209,7 +209,7 @@
 	
 	{
 		"name": "Wormtongue",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 3,
 		"strength": 12,
 		"promotions": ["Hero"],
@@ -217,7 +217,7 @@
 	},
 	{
 		"name": "Lieutenant Gothmog",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
 		"promotions": ["Hero"],
@@ -225,7 +225,7 @@
 	},
 	{
 		"name": "Lord Gothmog",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 23,
 		"promotions": ["Hero"],
@@ -233,7 +233,7 @@
 	},
 	{
 		"name": "Azog",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 3,
 		"strength": 16,
 		"promotions": ["Hero"],
@@ -249,7 +249,7 @@
 	},
 	{
 		"name": "Saruman",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 18,
 		"range": 3,
@@ -259,7 +259,7 @@
 	},
 	{
 		"name": "Shelob",
-		"unitType": "Melee",
+		"unitType": "Special",
 		"movement": 3,
 		"strength": 20,
 		"promotions": ["Hero","Tunnel"],
@@ -275,7 +275,7 @@
 	},
 	{
 		"name": "Mouth of Sauron",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 4,
 		"range": 1,
 		"strength": 18,
@@ -285,7 +285,7 @@
 	},
 	{
 		"name": "Balrog",
-		"unitType": "Melee",
+		"unitType": "Archery",
 		"uniqueTo": "Goblins",
 		"movement": 3,
 		"strength": 20,
@@ -296,7 +296,7 @@
 	// City States + Mercenaries
 	{
 		"name": "Ent",
-		"unitType": "Ranged",
+		"unitType": "Special",
 		"movement": 1,
 		"strength": 15,
 		"rangedStrength": 15,
@@ -313,7 +313,7 @@
 	},
 	{
 		"name": "Mirkwood Spider",
-		"unitType": "Melee",
+		"unitType": "Special",
 		"movement": 2,
 		"strength": 16,
 		"cost": 100,
@@ -347,7 +347,7 @@
 	},
 	{
 		"name": "Beorning",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 28,
 		"cost": 200,
@@ -368,7 +368,7 @@
 	},
 	{
 		"name": "Bear Form",
-		"unitType": "Melee",
+		"unitType": "Special",
 		"movement": 3,
 		"strength": 28,
 		"cost": 200,
@@ -391,7 +391,7 @@
 	},
 	{
 		"name": "Dunlending",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 18,
 		"cost": 65,
@@ -429,33 +429,32 @@
 		"name": "Man of the Mountains FA",
 		"replaces": "Spearman",
 		"uniqueTo": "Paths of the Dead",
-		"unitType": "Melee",
+		"unitType": "Pike",
 		"movement": 2,
 		"strength": 13,
 		"cost": 56,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Man of the Mountains SA",
 		"replaces": "Pikeman",
 		"uniqueTo": "Paths of the Dead",
-		"unitType": "Melee",
+		"unitType": "Pike",
 		"movement": 2,
 		"strength": 20,
 		"cost": 80,
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Dead Man of Dunharrow",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","Ignores terrain cost"],
+		"uniques": ["Ignores terrain cost"],
 		"upgradesTo": "Longswordsman",
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Dead Man of Dunharrow",
-		"unitType": "Melee",
+		"unitType": "Special",
 		"movement": 2,
 		"strength": 20,
 		"rangedStrength": 20,
@@ -503,7 +502,7 @@
 	},
 	{
 		"name": "Warrior",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
@@ -529,7 +528,7 @@
 	},
 	{
 		"name": "Wildman of Dunland",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
 		"replaces": "Warrior",
 		"movement": 2,
@@ -541,7 +540,7 @@
 	},
 	{
 		"name": "Skirmisher",
-		"unitType": "Melee",
+		"unitType": "Pike",
 		"movement": 2,
 		"strength": 7,
 		"cost": 40,
@@ -555,7 +554,7 @@
 	},
 	{
 		"name": "Archer",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 7,
@@ -567,7 +566,7 @@
 	},
 	{
 		"name": "Goblin Archer",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"uniqueTo": "Barbarians",
 		"replaces": "Archer",
 		"movement": 2,
@@ -581,7 +580,7 @@
 	},
 	{
 		"name": "Haradrim Archer",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"uniqueTo": "Harad",
 		"replaces": "Archer",
 		"movement": 2,
@@ -614,7 +613,7 @@
 	},
 	{
 		"name": "Battering Ram",
-		"unitType": "Melee", // You might expect this to be a siege unit, but apparently it is not
+		"unitType": "Siege", // You might expect this to be a siege unit, but apparently it is not
 		"replaces": "Catapult",
 		"movement": 2,
 		"strength": 8,
@@ -629,7 +628,7 @@
 	},
 	{
 		"name": "Axeman",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
 		"cost": 60,
@@ -640,7 +639,7 @@
 	},
 	{
 		"name": "Chariot",
-		"unitType": "Melee",
+		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 11,
 		"cost": 60,
@@ -654,7 +653,7 @@
 	{
 		"name": "Spider Rider"
 		"replaces": "Chariot",
-		"unitType": "Ranged",
+		"unitType": "Mounted",
 		"uniqueTo": "Goblins",
 		"movement": 3,
                 "range": 1,
@@ -663,7 +662,7 @@
 		"cost": 70,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Rider",
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Can move after attacking","Archery"],
 		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
@@ -683,7 +682,7 @@
 	},
 	{
 		"name": "Spearman",
-		"unitType": "Melee",
+		"unitType": "Pike",
 		"movement": 2,
 		"strength": 13,
 		"cost": 75,
@@ -697,7 +696,7 @@
 		"name": "Rhudaur Spearman",
 		"replaces": "Spearman",
 		"uniqueTo": "Barbarians",
-		"unitType": "Melee",
+		"unitType": "Pike",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
@@ -711,7 +710,7 @@
 		"name": "Easterling",
 		"replaces": "Spearman",
 		"uniqueTo": "Rhun",
-		"unitType": "Melee",
+		"unitType": "Pike",
 		"movement": 2,
 		"strength": 15,
 		"cost": 75,
@@ -724,7 +723,7 @@
 		"name": "Phalanx",
 		"replaces": "Spearman",
 		"uniqueTo": "Dwarves",
-		"unitType": "Melee",
+		"unitType": "Pike",
 		"movement": 2,
 		"strength": 16,
 		"cost": 75,
@@ -741,7 +740,7 @@
 		"cost": 90,
 		"requiredTech": "Stirrup",
 		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
+		"upgradesTo": "Lancer",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -756,7 +755,7 @@
 		"cost": 90,
 		"requiredTech": "Stirrup",
 		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
+		"upgradesTo": "Lancer",
 		"uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -801,7 +800,7 @@
 	},
 	{
 		"name": "Composite Bowman",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 8,
 		"rangedStrength": 12,
@@ -815,7 +814,7 @@
 		"name": "Axe Thrower",
 		"uniqueTo": "Dwarves",
 		"replaces": "Composite Bowman",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 12,
 		"rangedStrength": 13,
@@ -829,7 +828,7 @@
 		"name": "Strider",
 		"uniqueTo": "Arnor",
 		"replaces": "Composite Bowman",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 9,
 		"rangedStrength": 13,
@@ -844,7 +843,7 @@
 	// Second Age
 	{
 		"name": "Siege Tower",
-		"unitType": "Melee",
+		"unitType": "Siege",
 		"movement": 2,
 		"strength": 14,
 		"cost": 120,
@@ -858,7 +857,7 @@
 	},
 	{
 		"name": "Swordsman",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
@@ -871,7 +870,7 @@
 	},
 	{
 		"name": "Orc Marauder",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"replaces": "Swordsman",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
@@ -885,7 +884,7 @@
 	},
 	{
 		"name": "Uruk-Hai",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"uniqueTo": "Isengard",
 		"movement": 3,
 		"strength": 22,
@@ -899,7 +898,7 @@
 	},
 	{
 		"name": "Guardian",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"replaces": "Swordsman",
 		"uniqueTo": "Dwarves",
 		"movement": 2,
@@ -914,7 +913,7 @@
 	},
 	{
 		"name": "Pikeman",
-		"unitType": "Melee",
+		"unitType": "Pike",
 		"movement": 2,
 		"strength": 19,
 		"cost": 120,
@@ -927,7 +926,7 @@
 		"name": "Shirriff",
 		"replaces": "Spearman",
 		"uniqueTo": "The Shire",
-		"unitType": "Melee",
+		"unitType": "Pike",
 		"movement": 2,
 		"strength": 13,
 		"cost": 75,
@@ -940,7 +939,7 @@
 		"name": "Tower Guard",
 		"replaces": "Pikeman",
 		"uniqueTo": "Gondor",
-		"unitType": "Melee",
+		"unitType": "Pike",
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
@@ -983,7 +982,7 @@
 		"requiredTech": "Steel",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Knight",
+		"upgradesTo": "Cavalry",
 		"attackSound": "horse"
 	},
         {
@@ -996,13 +995,13 @@
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"uniques": ["Can move after attacking", "[+15]% Strength <vs [Wounded] units>", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Knight",
+		"upgradesTo": "Cavalry",
 		"attackSound": "metalhit"
         },
 	{
 		"name": "Rohirrim Archer"
 		"replaces": "Lancer",
-		"unitType": "Ranged",
+		"unitType": "Mounted",
 		"uniqueTo": "Rohan",
 		"movement": 4,
 		"strength": 21,
@@ -1010,9 +1009,9 @@
 		"cost": 150,
 		"requiredTech": "Steel",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Can move after attacking","Archery"],
 		"hurryCostModifier": 20,
-		"upgradesTo": "Knight",
+		"upgradesTo": "Cavalry",
 		"attackSound": "horse"
 	},
 	{
@@ -1027,13 +1026,13 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking"],
 		"hurryCostModifier": 20,
-		"upgradesTo": "Knight",
+		"upgradesTo": "Cavalry",
 		"attackSound": "horse"
 	},
 	{
 		"name": "Battle Troll",
-		"unitType": "Mounted",
-		"replaces": "Knight",
+		"unitType": "Special",
+		"replaces": "Cavalry",
 		"uniqueTo": "Mordor",
 		"movement": 3,
 		"strength": 33,
@@ -1056,7 +1055,7 @@
 	},
 	{
 		"name": "Marksman",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 19,
@@ -1067,7 +1066,7 @@
 	},
 	{
 		"name": "Mirkwood Archer",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 20,
@@ -1082,7 +1081,7 @@
 	{
 		"name": "Cave Troll",
 		"uniqueTo": "Goblins",
-		"unitType": "Melee",
+		"unitType": "Special",
 		"movement": 2,
 		"strength": 25,
 		"cost": 130,
@@ -1093,7 +1092,7 @@
 	},
 	{
 		"name": "Longswordsman",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 29,
 		"cost": 200,
@@ -1105,7 +1104,7 @@
 		"name": "Black Numenorean",
 		"replaces": "Longswordsman",
 		"uniqueTo": "Angmar",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 3,
 		"strength": 30,
 		"cost": 200,
@@ -1118,7 +1117,7 @@
 		"name": "Noldor Warriors",
 		"replaces": "Longswordsman",
 		"uniqueTo": "Noldor Elves",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 32,
 		"cost": 200,
@@ -1141,7 +1140,7 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Knight",
+		"name": "Cavalry",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 28,
@@ -1167,7 +1166,7 @@
 	},
 	{
 		"name": "Haradrim Lancer",
-		"replaces": "Knight",
+		"replaces": "Cavalry",
 		"uniqueTo": "Harad",
 		"unitType": "Mounted",
 		"movement": 5,
@@ -1207,7 +1206,7 @@
 	},
 	{
 		"name": "Crossbowman",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 19,
 		"rangedStrength": 27,
@@ -1219,7 +1218,7 @@
 		"name": "Ithilien Ranger",
 		"replaces": "Crossbowman",
 		"uniqueTo": "Gondor",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 3,
 		"strength": 23,
 		"rangedStrength": 26,
@@ -1255,31 +1254,6 @@
 	},
 	
 	// Great People
-	{
-		"name": "Great Artist",
-		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable"],
-		"movement": 2
-	},
-	{
-		"name": "Great Scientist",
-		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable"],
-		"movement": 2
-	},
-	{
-		"name": "Great Merchant",
-		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable"],
-		"movement": 2
-	},
-	{
-		"name": "Great Engineer",
-		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable"],
-		"movement": 2
-	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
